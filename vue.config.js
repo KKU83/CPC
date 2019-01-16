@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/CPC_Vue/" : "/"
+  publicPath: process.env.NODE_ENV === "production" ? "/CPC/" : "/"
 };

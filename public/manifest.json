@@ -1,6 +1,6 @@
 {
-  "name": "cpc_vue",
-  "short_name": "cpc_vue",
+  "name": "cpc",
+  "short_name": "cpc",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",

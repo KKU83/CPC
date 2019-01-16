@@ -1,4 +1,4 @@
-# cpc_vue
+# cpc
 
 ## Project setup
 ```
