@@ -1,29 +1,33 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <core-toolbar/>
+    <core-view/>
+    <core-footer/>
+    <!-- <router-view name="header"></router-view>
+    <main>
+      <fade-transition origin="center" mode="out-in" :duration="250">
+        <router-view/>
+      </fade-transition>
+    </main>
+    <router-view name="footer"></router-view> -->
+  </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+// import { FadeTransition } from "vue2-transitions";
+
+export default {
+  name: "App",
+  components: {
+    // FadeTransition,
+    CoreToolbar: () => import("@/layout/Toolbar"),
+    CoreView: () => import("@/layout/View"),
+    CoreFooter: () => import("@/layout/Footer")
+  },
+  data() {
+    return {
+      //
+    };
   }
-}
-</style>
+};
+</script>

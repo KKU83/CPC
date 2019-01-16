@@ -1,0 +1,3 @@
+C:\Work\CPC2\CPC_Vue\obj\Debug\CPC_Vue.njsprojAssemblyReference.cache
+C:\Work\CPC2\CPC_Vue\obj\Debug\CPC_Vue.njsproj.CoreCompileInputs.cache
+C:\Work\CPC2\CPC_Vue\bin\Microsoft.NodejsTools.WebRole.dll
